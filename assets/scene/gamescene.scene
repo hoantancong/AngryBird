@@ -19,16 +19,19 @@
       },
       {
         "__id__": 4
+      },
+      {
+        "__id__": 32
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 32
+      "__id__": 35
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 33
+      "__id__": 36
     },
     "_id": "610e675e-5a35-48f2-a5b5-e101c7436774"
   },
@@ -1093,25 +1096,117 @@
     "_id": "a6Xa4hCbhO0Z7sOp3YnoVI"
   },
   {
+    "__type__": "cc.Node",
+    "_name": "AudioNode",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 33
+      },
+      {
+        "__id__": 34
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "95Sb55hMFLwL0NPxMFiW0X"
+  },
+  {
+    "__type__": "c0696l9qGZDC4kg91ecSjq+",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 32
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "gameAudios": [
+      {
+        "__uuid__": "2defa41b-ff8d-4708-adee-f187070b1629",
+        "__expectedType__": "cc.AudioClip"
+      },
+      {
+        "__uuid__": "2688298f-7e95-4069-80f7-33a462441465",
+        "__expectedType__": "cc.AudioClip"
+      },
+      {
+        "__uuid__": "076e875a-3230-473c-9c91-79f419d6be84",
+        "__expectedType__": "cc.AudioClip"
+      }
+    ],
+    "audioSource": {
+      "__id__": 34
+    },
+    "_id": "1copdv875FQLBAWD6y144Q"
+  },
+  {
+    "__type__": "cc.AudioSource",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 32
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_clip": {
+      "__uuid__": "84a9b6e5-63d9-480e-8dad-db4b67180c53",
+      "__expectedType__": "cc.AudioClip"
+    },
+    "_loop": true,
+    "_playOnAwake": false,
+    "_volume": 1,
+    "_id": "acE1nb1ahNCrjYFZD7scnz"
+  },
+  {
     "__type__": "cc.PrefabInfo",
     "fileId": "610e675e-5a35-48f2-a5b5-e101c7436774"
   },
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 34
-    },
-    "shadows": {
-      "__id__": 35
-    },
-    "_skybox": {
-      "__id__": 36
-    },
-    "fog": {
       "__id__": 37
     },
-    "octree": {
+    "shadows": {
       "__id__": 38
+    },
+    "_skybox": {
+      "__id__": 39
+    },
+    "fog": {
+      "__id__": 40
+    },
+    "octree": {
+      "__id__": 41
     }
   },
   {
