@@ -8,8 +8,8 @@
       "__id__": 1
     },
     "optimizationPolicy": 0,
-    "asyncLoadAssets": false,
-    "persistent": false
+    "persistent": false,
+    "asyncLoadAssets": false
   },
   {
     "__type__": "cc.Node",
@@ -816,22 +816,22 @@
     "fileId": "a9bZik2eNBfbic5vH5PrsN",
     "nestedPrefabInstanceRoots": [
       {
-        "__id__": 2
-      },
-      {
-        "__id__": 10
-      },
-      {
-        "__id__": 18
-      },
-      {
-        "__id__": 26
+        "__id__": 43
       },
       {
         "__id__": 34
       },
       {
-        "__id__": 43
+        "__id__": 26
+      },
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 2
       }
     ]
   }

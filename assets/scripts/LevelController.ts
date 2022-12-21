@@ -30,6 +30,7 @@ export class LevelController extends Component {
         this.winCallBack =callCallback;
     }
     public pigDie(){
+        //win callback
         this.winCallBack();
     }
     // update (deltaTime: number) {
